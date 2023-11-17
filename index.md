@@ -262,7 +262,7 @@ now x = 5
 
 * **==** -> Equals to
 * **&&** -> AND
-* **||** -> OR
+* **\|\|** -> OR
 * **!** -> NOT
 * **>** -> Greater(Less) than
 * **>=** -> Greater(Less) than and equal to
@@ -294,13 +294,15 @@ Useful functions:
 * **log(x)** -> natural logarithm (ln)
 * **log10(x)** -> log base 10
 * **fabs(x)** -> absolute value
-* **ceil(x)** -> rounds x to the biggest integer closest to x 
+* **ceil(x)** -> rounds x to the biggest integer closest to x
+
 ```
 ceil(9.2) = 10.0
 ceil(-9.8) = -9.0
 ```
 
 * **floor(x)** -> rounds to smallest int
+
 ```
 floor(9.2) = 9.0
 floor(-9.8) = -10.0
@@ -419,6 +421,7 @@ myFunction(myArray, 24);
 #### Linear search
 
 * Useful for small and unsorteed arrays
+
 ```
 int linearSearch(const int array[], int key, int size){
     int n =0;
@@ -438,6 +441,7 @@ int linearSearch(const int array[], int key, int size){
 
 * Only for arrays **sorted** by key
 * Very fast - at most 2^n steps
+
 ```
 int binarySearch(const int b[], int searchKey, int low, int high){
     int middle;
@@ -648,6 +652,7 @@ Goes from memory adress 3000 to 3004 (in this case its integers (4 bytes) )
 
 * malloc()
    * Allocates memory during execution time
+
 ```
 newPtr = malloc(numberOfElements * sizeof(int));
 ```
@@ -967,6 +972,7 @@ This code moves the pointer past 4 struct coord elements in the file and then pr
 ### Linked Lists
 
 * Linear collection of self-referential structures
+
 ```
 struct listNode{
     char data;
