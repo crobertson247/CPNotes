@@ -163,19 +163,19 @@ Symbols:
 
 ### If-else flow chart
 
-![Local Image](resized_flowchart.png)
+![](resized_flowchart.png)
 
 ### For loop flow chart
 
-![Local Image](resized_for_flowchart.png)
+![](resized_for_flowchart.png)
 
 ### do-while flow chart
 
-![Local Image](resized_dowhile_flowchart.png)
+![](resized_dowhile_flowchart.png)
 
 ### Switch case flow chart
 
-![Local Image](resized_switch_flowchart.png)
+![](resized_switch_flowchart.png)
 
 ### 
 
