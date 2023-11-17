@@ -881,7 +881,8 @@ struct Record record1 = {1, 3.14};
 
 fwrite(&record1, sizeof(struct Record), 1, file);
 ```
-* the 1 represents the number of elements to write 
+* the 1 represents the number of elements to write
+
 ```
 struct Record readRecord1;
 
@@ -899,6 +900,7 @@ fread(&readRecord1, sizeof(struct Record), 1, file);
 ```
 int fseek(FILE *stream, long int offset, int whence);
 ```
+
 Sets file position pointer to a specific position
 * stream - pointer to file
 * offset - file position to seek
@@ -908,6 +910,7 @@ Sets file position pointer to a specific position
     * SEEK_END - seek starts at end of file
 
 E.g.
+
 ```
 struct coord xPnt = {1.0, 5.0};
 fseek(fPtr, 4*sizeof(struct coord), SEEK_SET);
