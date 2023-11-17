@@ -527,7 +527,7 @@ void insertionSort(int arr[], int n) {
 * If value unspecified, given a 0 value
 
 ```
-int b[row][column] = {{1,2}, {3,4}};
+int b[row][column] = { {1, 2}, {3, 4} };
 
 printf("%d", b[0][1]);
 ```
