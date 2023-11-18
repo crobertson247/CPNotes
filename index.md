@@ -808,8 +808,6 @@ free(arr);
 * Stored as characters
 * Written and read sequentially
 
-**NB:** When reading from a text file it takes in the escape sequence '\n' so it will insert it into a printf statement.
-
 ### Opening and Closing files
 
 ```
@@ -859,6 +857,8 @@ while (fgets(buffer, sizeof(buffer), file) != NULL) {
 * char *str represents a pointer to a char array
 * An array is a pointer so no need to use &
 
+**NB:** fgets will take a newline character with it from the text file and insert it into a printf statemnt!
+
 ```
 int fputs(const char *str, FILE *stream);
 ```
@@ -871,6 +871,7 @@ char text[50];
 fscanf(file, "%d %s", &value, text);
 ```
 * Reads formatted data from a file
+* **STOPS** when it gets to a whitespace (or newline character) in a text file!
 
 ```
 int value = 42;
