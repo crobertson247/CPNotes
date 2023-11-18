@@ -24,6 +24,7 @@
 * **\\"** -> insert a quote
 * **\r** -> position cursor at the beginning of the line
 * **\\?** -> insert ?
+* **%%%%** -> print a %
 
 ## Special characters
 
