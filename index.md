@@ -20,7 +20,7 @@
 * **\n** -> newline
 * **\t** -> tab
 * **\\a** -> alert
-* **\\** -> insert a backslash
+* **\\\\** -> insert a backslash
 * **\\"** -> insert a quote
 * **\r** -> position cursor at the beginning of the line
 * **\\?** -> insert ?
