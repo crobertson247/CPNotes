@@ -8,11 +8,11 @@
 #include <stdlib.h>
 ```
 
-### <stdio.h>
+### stdio.h
 * Standard input - output header
 * Functions like _printf_,  _scanf_, _fopen_ & _fclose_
 
-### <stdlib.h>
+### stdlib.h
 * standard library header
 * Functions like _malloc_, _free_, _rand_
 
