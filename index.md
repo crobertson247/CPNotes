@@ -592,6 +592,8 @@ void cubeByRefference(int *nPtr){
     *nPtr = *nPtr * *nPtr * *nPtr;
 }
 ```
+* int *nPtr - defines an int pointer is to be accepted as the parameter
+* *nPtr - dereferences the pointer so the value can be accessed
 No need to return a value because the value at the address of nPtr is changed
 
 #### Using const Qualifier with Pointers
