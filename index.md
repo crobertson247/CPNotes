@@ -38,7 +38,7 @@ printf("The sum is: %d\n", sum);
 * **%c** -> for characters
 * **%.2f** -> 2 decimal places float
 * **%-6s** -> prints a string with left alignment with a minimum field width of 6 (default is right)
-* **%6s** -> string with default(right) aligment of minimum field width 6
+* **%6s** -> string with default (right) aligment of minimum field width 6
 
 #### Weird case:
 
@@ -47,7 +47,7 @@ printf("The sum is: %d\n", sum);
 * 8 -> Means that there are 8 white spaces assigned for the number
 * .5 -> 5 decimal places
 
-This means that if the number is shorter than 8 characters(n characters) the output will include (8-n) whitespaces before printing the number and the number will be printed with 5 decimal places.
+This means that if the number is shorter than 8 characters(n characters) the output will include (8 - n) whitespaces before printing the number and the number will be printed with 5 decimal places.
 
 However, if the number has more than 8 characters it won't have an an effect on the number and will jsut print to 5 decimal places.
 
