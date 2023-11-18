@@ -603,12 +603,12 @@ const -> Variable can't be changed
 ```
 const int* myPtr = &x;
 ```
-* The value of myPtr can be changed by the value it points to can't be changed
+* The value (address) of myPtr can be changed but the value it points to can't be changed
 
 ```
 int* const myPtr =&x;
 ```
-* The value of myPtr can't be changed but the value it points to can be changed
+* The value (address) of myPtr can't be changed but the value it points to can be changed
 
 ```
 const int* const myPtr = &x;
