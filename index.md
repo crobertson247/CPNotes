@@ -102,6 +102,12 @@ Need to seed the rand function otherwise it won't return a random value
 
 **NB** -> **(rand( ) % (upper - lower + 1)) + lower;**
 
+Other method: [0,n] -> rand() % (n-1) will give range [0, n-1] so:
+
+```
+int rndValue = (rand() % (n-1) + 1;
+```
+
 ## Algorithm
 Procedure in terms of:
 * Actions to be executed
