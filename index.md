@@ -178,7 +178,6 @@ Symbols:
 
 ![](resized_switch_flowchart.png)
 
-### 
 
 ## Control Structures
 
