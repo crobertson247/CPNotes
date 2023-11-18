@@ -621,7 +621,7 @@ const int* const myPtr = &x;
 void swap(int* elementPtr, int* element2Ptr);
 
 void bubbleSort(int* const array, const int size){
-    for(int pass = 0; pass <size -1, pass++){
+    for(int pass = 0; pass <size -1; pass++){
         for(int j = 0; j<size -1; j++){
             if(array[j]> array[j+1]){
                 swap(&array[j], &array[j+1]);
@@ -636,6 +636,7 @@ void swap(int* elementPtr, int* element2Ptr){
     *element2Ptr = hold;
 }
 ```
+* The array[j] implicitly dereferences the pointer 
 
 #### sizeof Operator
 
