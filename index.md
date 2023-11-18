@@ -808,6 +808,8 @@ free(arr);
 * Stored as characters
 * Written and read sequentially
 
+**NB:** When reading from a text file it takes in the escape sequence '\n' so it will insert it into a printf statement.
+
 ### Opening and Closing files
 
 ```
