@@ -946,7 +946,7 @@ This code moves the pointer past 4 struct coord elements in the file and then pr
     * Smallest data item (0 or 1)
 * Byte 
     * 8 **bits**
-    * Used to store a character, decimal digits, letters, and special symbols
+    * Used to store a character(1 byte), decimal digits, letters, and special symbols
 * Field 
     * Group of **characters** conveying meaning
         * E.g. your name
