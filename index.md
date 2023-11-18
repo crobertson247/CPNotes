@@ -553,7 +553,7 @@ Methods:
 
 ## Pointers
 
-Pointers contain memory adresses as their values
+Pointers contain memory addresses as their values
 
 Indirection - Using an adress (pointer) to access a variable
 
