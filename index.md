@@ -1121,6 +1121,7 @@ void addToBack(QueueNodePtr* frontPtr, QueueNodePtr* backPtr, int value) {
 ```
 
 1. Since backPtr is a pointer to QueueNodePtr (i.e. its a pointer to a pointer), you need to derefference it to get the pointer that points to QueueNode itself (you dont wan't the pointer that points to the pointer of the QueueNode).
+    * You use a pointer to a pointer so that you can modify the value of the pointer (i.e. change the pointer to the front and back)
 
 
 #### Deletion (Dequeue)
