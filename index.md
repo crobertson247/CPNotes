@@ -665,7 +665,7 @@ newPtr = malloc(numberOfElements * sizeof(int));
 
 * free()
    * Frees the allocated memory 
-   * Always do this after you're done using the pointer
+   * Always do this after you're done using the pointer (only if used malloc to create the ptr)
 
 #### Arrays of Pointers (Strings)
 
