@@ -412,7 +412,8 @@ Can use ```#define SIZE 10``` by the imports and ```int marks[SIZE]```
 ### Using arrays to store strings
 ```
 char str[20];
-scanf("%s", string);
+scanf("%s", str);
+printf("%s\n", str);
 ```
 ### Passing Arrays
 ```
