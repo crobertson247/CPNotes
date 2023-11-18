@@ -672,6 +672,7 @@ Goes from memory adress 3000 to 3004 (in this case its integers (4 bytes) )
 ```
 newPtr = malloc(numberOfElements * sizeof(int));
 ```
+**NB:** Always assign the memory space allocated by malloc to a **pointer**
 
 * free()
    * Frees the allocated memory 
