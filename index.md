@@ -228,9 +228,9 @@ Same for **a- -** and **- -a**, just decrement by 1
 E.g.
 
 ```
-    int a = 1;
-    printf("a++ = %d\n", a++);
-    printf("++a = %d\n", ++a);
+int a = 1;
+printf("a++ = %d\n", a++);
+printf("++a = %d\n", ++a);
 ```
 
 Output: 
