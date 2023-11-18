@@ -194,7 +194,7 @@ average = (float) average/counter;
 ```
 
 
-1. **Implicit conversions**
+* **Implicit conversions**
    * Can lose precision
 
 E.g. 
@@ -206,7 +206,7 @@ float b = 5.5;
 float result = a + b; 
 ```
 
-2. **Explicit casting**
+* **Explicit casting**
    * Avoids loss of precision
 
 E.g.
