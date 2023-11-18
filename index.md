@@ -786,8 +786,9 @@ arr = malloc(no * sizeof(Element));
 
 arr[0].name = "Hydrogen"
 ```
+**NB:** Always assign the memory space allocated by malloc to a **pointer**
 
-**NB:** Remember to free the memory after use
+**NB:** Remember to free the memory after use.
 
 ```
 free(arr);
