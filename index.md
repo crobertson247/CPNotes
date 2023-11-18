@@ -1105,7 +1105,7 @@ void addToBack(QueueNodePtr* frontPtr, QueueNodePtr* backPtr, int value) {
     if (newNode != NULL) {
         newNode->data = value;
         newNode->nextPtr = NULL;
-        newNode->prevPtr = *backPtr;
+        newNode->prevPtr = *backPtr; //1.
 
         if (*backPtr != NULL) {
             (*backPtr)->nextPtr = newNode;
@@ -1119,6 +1119,8 @@ void addToBack(QueueNodePtr* frontPtr, QueueNodePtr* backPtr, int value) {
     }
 }
 ```
+
+1. Since backPtr is a pointer to QueueNodePtr (i.e. its a pointer to a pointer), you need to derefference it to get the pointer that points to QueueNode itself (you dont wan't the pointer that points to the pointer of the QueueNode).
 
 
 #### Deletion (Dequeue)
