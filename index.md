@@ -50,7 +50,7 @@ printf("The sum is: %d\n", sum);
 
 This means that if the number is shorter than 8 characters(n characters) the output will include (8 - n) whitespaces before printing the number and the number will be printed with 5 decimal places.
 
-However, if the number has more than 8 characters it won't have an an effect on the number and will jsut print to 5 decimal places.
+However, if the number has more than 8 characters it won't have an an effect on the number and will just print to 5 decimal places.
 
 ## Arithmetic Operators
 
