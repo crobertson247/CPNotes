@@ -643,7 +643,7 @@ void swap(int* elementPtr, int* element2Ptr){
 ```
 sizeof(myArray)
 ```
-Returns the size of the array * how much memory an element takes
+Returns (the size of the array) * (how much memory an element takes)
 
 E.g. array size 10 of int (4 bytes) = 40
 
