@@ -223,7 +223,7 @@ float result_explicit = (float)a + b;
 * **a++** -> Use the value of a then increment by 1
 * **++a** -> Increment by 1 and then use the incremented value 
 
-Same for **a--** and **--a**, just decrement by 1
+Same for **a- -** and **- -a**, just decrement by 1
 
 E.g.
 
