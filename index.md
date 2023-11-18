@@ -102,6 +102,8 @@ Need to seed the rand function otherwise it won't return a random value
 
 **NB** -> **(rand( ) % (upper - lower + 1)) + lower;**
 
+#### Only when lower is 0 can this be used (the other one is still valid if lower is 0)
+
 Other method: [0,n] -> rand() % (n-1) will give range [0, n-1] so:
 
 ```
@@ -652,6 +654,8 @@ sizeof(myArray)
 Returns (the size of the array) * (how much memory an element takes)
 
 E.g. array size 10 of int (4 bytes) = 40
+
+**NB** -> for a char[n] (string) its n+1, you need to take into account the null terminator ('\0') it says that the string is done
 
 #### Incremementing pointers
 
