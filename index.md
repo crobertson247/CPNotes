@@ -309,7 +309,9 @@ floor(-9.8) = -10.0
 ```
 * **pow(x,y)** -> x^y
 * **fmod(x,y)** -> remainder of x/y as a float
-* **sin(x), cos(x) & tan(x)**   
+* **sin(x), cos(x) & tan(x)**
+
+There are functions like sinf(x) etc that return a float instead of a double  
 
 ## Creating functions
 
