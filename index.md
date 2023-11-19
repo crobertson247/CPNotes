@@ -832,7 +832,7 @@ fclose(cfPtr);
 * **a:** append (open or create for writing at end of file)
 * **r+:** update **(read & write)**
 * **w+:** update (discard the current content) **(read & write)**
-* **a+:** open or creaate a file for update (writing done at end of file) **(read & write)**
+* **a+:** open or create a file for update (writing done at end of file) **(read & write)**
 * **x+:** creates a file(if it exists, the fopen will fail) open for read and write
 * **rb:** reading in binary mode
 
