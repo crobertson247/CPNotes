@@ -558,14 +558,14 @@ A systematic process of identifying and fixing errors (bugs) in a computer progr
 Methods:
 
 1. Using printf statements
-2. Commenting out sections that might be leadign to the error
+2. Commenting out sections that might be leading to the error
 3. Use the debugger (best practice)
 
 ## Pointers
 
 Pointers contain memory addresses as their values
 
-Indirection - Using an adress (pointer) to access a variable
+Indirection - Using an address (pointer) to access a variable
 
 #### Declaration
 ```
