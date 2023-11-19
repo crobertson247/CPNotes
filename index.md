@@ -103,13 +103,14 @@ Need to seed the rand function otherwise it won't return a random value
 
 **NB** -> **(rand( ) % (upper - lower + 1)) + lower;**
 
-#### Only when lower is 0 can this be used (the other one is still valid if lower is 0)
 
 Other method: [0,n] -> rand() % (n-1) will give range [0, n-1] so:
 
 ```
 int rndValue = (rand() % (n-1) + 1;
 ```
+
+#### Only when lower is 0 can this be used (the other one is still valid if lower is 0)
 
 ## Algorithm
 Procedure in terms of:
