@@ -833,6 +833,7 @@ fclose(cfPtr);
 * **r+:** update **(read & write)**
 * **w+:** update (discard the current content) **(read & write)**
 * **a+:** open or creaate a file for update (writing done at end of file) **(read & write)**
+* **x+:** creates a file(if it exists, the fopen will fail)
 * **rb:** reading in binary mode
 
 Anything with a b just means the same but binary mode.
