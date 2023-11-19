@@ -466,9 +466,9 @@ int binarySearch(const int b[], int searchKey, int low, int high){
         if(searchKey == b[middle]){
             keyLocation = middle;
         }else if(searchKey < b[middle]){
-            high = middle-1;
+            high = middle - 1;
         }else{
-            low = middle -1;
+            low = middle + 1;
         }
     }
 
